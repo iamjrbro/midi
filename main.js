@@ -1,44 +1,53 @@
-function playSoundPom() {
-  document.querySelector("#sound_key_pom").play();
-}
-document.querySelector(".key_pom").onclick = playSoundPom;
+const keyList = document.querySelectorAll('.key');
 
-function playSoundClap() {
-  document.querySelector("#sound_key_clap").play();
-}
-document.querySelector(".key_clap").onclick = playSoundClap;
 
-function playSoundTim() {
-  document.querySelector("#sound_key_tim").play();
-}
-document.querySelector(".key_tim").onclick = playSoundTim;
+//functions
 
-function playSoundPuff() {
-  document.querySelector("#sound_key_puff").play();
+function playSoundPom(){
+  document.querySelector('#sound_key_pom').play();
 }
-document.querySelector(".key_puff").onclick = playSoundPuff;
 
-function playSoundSplash() {
-  document.querySelector("#sound_key_splash").play();
+function playSoundClap(){
+  document.querySelector('#sound_key_clap').play();
 }
-document.querySelector(".key_splash").onclick = playSoundSplash;
 
-function playSoundToim() {
-  document.querySelector("#sound_key_toim").play();
+function playSoundTim(){
+  document.querySelector('#sound_key_tim').play();
 }
-document.querySelector(".key_toim").onclick = playSoundToim;
 
-function playSoundPsh() {
-  document.querySelector("#sound_key_splash").play();
+function playSoundPuff(){
+  document.querySelector('#sound_key_puff').play();
 }
-document.querySelector(".key_psh").onclick = playSoundPsh;
 
-function playSoundTic() {
-  document.querySelector("#sound_key_tic").play();
+function playSoundSplash(){
+  document.querySelector('#sound_key_splash').play();
 }
-document.querySelector(".key_tic").onclick = playSoundTic;
 
-function playSoundTom() {
-  document.querySelector("#sound_key_tom").play();
+function playSoundToim(){
+  document.querySelector('#sound_key_toim').play();
 }
-document.querySelector(".key_tom").onclick = playSoundTom;
+
+function playSoundPsh(){
+  document.querySelector('#sound_key_psh').play();
+}
+
+function playSoundTic(){
+  document.querySelector('#sound_key_tic').play();
+}
+
+function playSoundTom(){
+  document.querySelector('#sound_key_tom').play();
+}
+
+
+//REPRODUCTON LIST
+keysList[0].onclick = playSoundPom;
+keyList[1].onclick = playSoundClap;
+keyList[2].onclick = playSoundTim;
+keyList[3].onclick = playSoundPuff;
+keyList[4].onclick = playSoundToim;
+keyList[5].onclick = playSoundPsh;
+keyList[6].onclick = playSoundTic;
+keyList[7].onclick = playSoundTom;
+
+
